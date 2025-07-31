@@ -105,6 +105,10 @@ body::-webkit-scrollbar {
     user-select: none;
 }
 
+#github-link {
+    overflow: auto;
+}
+
 .cta-button {
     display: inline-block;
     margin-top: 30px;
