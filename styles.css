@@ -35,7 +35,6 @@ body::-webkit-scrollbar {
 .intro-headline span {
     opacity: 0;
     animation: fadeInGlow 2.5s forwards;
-    font-family: Cascadia Code;
 }
 
 .intro-headline span:nth-child(1) { animation-delay: 0.5s; }
@@ -418,4 +417,5 @@ body::-webkit-scrollbar {
     margin-top: 10px;
 
 }
+
 
