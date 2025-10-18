@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChrsME - Home</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/homepage.css">
     <!-- Open source CSS: https://cdnjs.com/libraries/font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="icon" type="Image/x-icon" href="https://i.ibb.co/kVDmFyHV/Untitled5-20250731095602.png">
 </head>
 <body>
     <nav id="scroll-sidebar">
-        <a href="#" id="home-button" aria-label="Home"><i class="fa-solid fa-house"></i></a>
-        <a href="#" id="open-feedback-button" aria-label="Add"><i class="fa-solid fa-plus"></i></a>
-        <a href="#" id="menu-button" aria-label="Menu"><i class="fa-solid fa-bars"></i></a>
-        <a href="errorpage.html" class="menu-item" aria-label="FAQ"><i class="fa-solid fa-circle-question"></i></a>
-        <a href="errorpage.html" class="menu-item" aria-label="Code"><i class="fa-solid fa-code"></i></a>
+        <a href="javascript:void(0)" id="home-button" aria-label="Home"><i class="fa-solid fa-house"></i></a>
+        <a href="javascript:void(0)" id="open-feedback-button" aria-label="Add"><i class="fa-solid fa-plus"></i></a>
+        <a href="javascript:void(0)" id="menu-button" aria-label="Menu"><i class="fa-solid fa-bars"></i></a>
+        <a href="javascript:void(0)" class="menu-item" aria-label="FAQ"><i class="fa-solid fa-circle-question"></i></a>
+        <a href="javascript:void(0)" class="menu-item" aria-label="Code"><i class="fa-solid fa-code"></i></a>
     </nav>
     <header class="intro">
         <h1 class="intro-headline">
@@ -31,7 +31,7 @@
         <section>
             <h2>Welcome to My Playground</h2>
             <p>This is my personal corner of the internet where I bring ideas to life. Everything here is open-source, so feel free to explore the projects and see what I've been building.</p>
-            <a href="#" class="cta-button">See My Work</a>
+            <a href="#" class="cta-button">Learn more</a>
         </section>
 
         <section class="info-grid">
@@ -44,13 +44,16 @@
         <h3>Projects</h3>
         <ul class="project-list">
             <li>
-                <a href="https://github.com/crisxdwars/ChrsMe" target="_blank">ChrsME <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/crisxdwars/ChrsMe" target="_blank">Chrs (This Website) <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </li>
             <li>
-                <a href="https://github.com/crisxdwars/Catto" target="_blank">Catto (Discord Bot) <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/crisxdwars/Catto" target="_blank">Catto (Discord Welcome Bot) <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </li>
             <li>
-                <a href="https://github.com/crisxdwars/kitty" target="_blank">Kitty (Discord Bot) <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/crisxdwars/kitty" target="_blank">Kitty (Discord Verification Bot) <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/crisxdwars/hiraya" target="_blank">Hiraya-Code (Research System)<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </li>
         </ul>
     </div>
@@ -78,7 +81,7 @@
     <div id="feedback-modal" class="modal-overlay">
     <div class="modal-content">
         <button class="modal-close-button" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
-        <h2>Feedbox</h2>
+        <h2>Feedback</h2>
         <form class="fback">
             <label for="feedback-message">Feedback Message:</label>
             <textarea id="feedback-message" rows="5"></textarea>
@@ -90,7 +93,7 @@
         </form>
     </div>
     </div>
-    <script src="script.js"></script>
+    <script src="scripts/homepage.js"></script>
 </body>
 </html>
 
